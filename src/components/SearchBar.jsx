@@ -40,7 +40,7 @@ const SearchBar = () => {
       </Button>
 
       {/* Heading */}
-      <Typography variant="h3" fontWeight={700} color="#272F3A" textAlign="center" fontSize={scaleFont(32)}>
+      <Typography variant="h3" fontWeight={700} color="#272F3A" textAlign="center" fontSize={scaleFont(35)}>
         Unlock Your Career
       </Typography>
 
@@ -49,7 +49,7 @@ const SearchBar = () => {
         variant="body1"
         color="#555"
         textAlign="center"
-        sx={{ maxWidth: `${scaleWidth(460)}px`, fontSize: scaleFont(16) }}
+        sx={{ maxWidth: `${scaleWidth(460)}px`, fontSize: scaleFont(20) }}
       >
         Explore opportunities from across the globe to grow, showcase skills, gain CV points & get hired by your dream company.
       </Typography>
@@ -131,7 +131,7 @@ const SearchBar = () => {
               height: `${scaleHeight(48)}px`,
             },
             "& .MuiOutlinedInput-input": {
-              "&:focus": { outline: "none" }, // Removes focus outline
+              "&:focus": { outline: "none" }, 
             },
           }}
         />

@@ -20,7 +20,7 @@ const Home = () => {
         justifyContent: "center",
         position: "relative",
         background:
-          "linear-gradient(to top, transparent 50%, transparent 80%, #7a5feb 97%, #ad9ff3 100%)",
+          "linear-gradient(to top, transparent 50%, transparent 90%, #7a5feb 100%, #ad9ff3 100%)",
       }}
     >
       <Navbar />

@@ -65,4 +65,5 @@ export const scaleTop = (size) => {
   const screenHeight = window.innerHeight;
   const baseHeight = isMobile() ? BASE_HEIGHT_MOBILE : BASE_HEIGHT_WEB;
   return (size * screenHeight) / baseHeight;
+  
 };
